@@ -1,0 +1,11 @@
+.floating-rectangle {
+    position: relative;
+    top: 50%;
+  
+    width: 100px; /* Set the width of the rectangle */
+    height: 50px; /* Set the height of the rectangle */
+    background-color: blue; /* Set the background color of the rectangle */
+    transform: translate(-50%, -50%); /* Center the rectangle */
+    z-index: 999; /* Ensure it's on top of the map */
+  }
+  
