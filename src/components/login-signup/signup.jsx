@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faLock } from '@fortawesome/free-solid-svg-icons';
+import React from 'react';
+
 import images from '../../constant/images';
 
-import { Link, useNavigate } from 'react-router-dom';
 
 const SignUp = () => {
   return (
